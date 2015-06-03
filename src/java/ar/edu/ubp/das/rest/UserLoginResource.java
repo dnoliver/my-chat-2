@@ -173,8 +173,8 @@ public class UserLoginResource {
     @Produces("application/json")
     @Path("auth/profile/{email}")
     public Response authProfile(@PathParam("email") String email){
-        final String username = "nicolasoliver03@gmail.com";
-        final String password = "2304@dnovivi!!";
+        final String username = "<mail>";
+        final String password = "<password>";
 
         Properties props = new Properties();
         props.put("mail.smtp.auth", "true");
